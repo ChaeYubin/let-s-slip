@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Let's slip! - my gallery</title>
+  </head>
+  <body>
+    <!-- 헤더와 푸터 부분은 계속 고정으로 둘 수 있는 방법 없을까..? -->
+    <header>
+      <img
+        id="sub-logo"
+        src="./img/header_sub_logo.png"
+        alt="sub logo"
+        onclick="location.href='index.html'"
+      />
+      <div id="about-us">About us</div>
+      <div id="join-us">Join us</div>
+      <div id="search-box">
+        <div id="search-text">search</div>
+      </div>
+      <!-- 나의 갤러리 버튼 클릭-> user_gallery.html로 이동 -->
+      <button
+        type="button"
+        id="my-gallery"
+        onclick="location.href='user_gallery.html'"
+      >
+        나의 갤러리
+      </button>
+      <button type="button" id="gallery">갤러리 열기</button>
+    </header>
+    <!-- 유저 갤러리 메인 화면 -->
+    <div id="profile-container">
+      <div><img src="./img/profile.png" alt="" /></div>
+      <div profile-text>
+        <div style="font-size: 25px">Susan's Slip Gallery</div>
+        <div style="font-size: 18px">유저 아이디</div>
+        <div style="font-size: 12px">slip 횟수</div>
+        <div style="font-size: 15px">한줄소개</div>
+        <div>수정하기 버튼</div>
+      </div>
+    </div>
+    <div id="timeline">
+      <div>Slip Timeline</div>
+      <div>타임라인 그래프</div>
+    </div>
+    <div id="post-container">
+      <div>새로운 작품 전시하기</div>
+      <div>사진들</div>
+    </div>
+    <footer>
+      <div id="footer">
+        <div class="left">
+          <img src="./img/sub_logo.png" alt="sub logo" />
+        </div>
+        <div class="right">
+          <div>이용약관</div>
+          <div>이용안내</div>
+          <div>운영정책</div>
+          <div>서울시 노원구 화랑로 621</div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"
+    <script
+  ></script>
+</html>
